@@ -1,15 +1,19 @@
 import './App.css'
 
-var todoList = [];
-
-function addTodo(id, title) {
-  const item = {id, title};
-  todoList.push(item);
-}
-
-addTodo(1, "Kilter Board");
-addTodo(2, "Muay Thai");
-addTodo(3, "Kickboxing");
+var todoList = [
+  {
+    id: 1,
+    title: "Kilter Board"
+  },
+  {
+    id: 2,
+    title: "Muay Thai"
+  },
+  {
+    id: 3,
+    title: "Kickboxing"
+  }
+]
 
 export default function App() {
   return (
